@@ -80,7 +80,7 @@ export class News extends Component {
     return (
       <>
         <h2 className="text-center" style={{ margin: "35px 0", marginTop: "90px" }}>
-          News Stop - One stop for all types of news.
+        News Snack - Get Your Daily Bite of News Here.
         </h2>
         {this.state.loading && <Spinner/>}
         <InfiniteScroll
